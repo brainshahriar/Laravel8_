@@ -7,6 +7,10 @@ class First extends Controller
 {
 public function index()
 {
-  echo ("babu");
+  return view ('shahriar');
+}
+public function index2()
+{
+  return view ('action');
 }
 }

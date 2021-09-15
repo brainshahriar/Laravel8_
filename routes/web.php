@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 
 Route::get('/dashboard', [First::class, 'index']);
+Route::get('/action', [First::class, 'index2'])->name('my.page');
